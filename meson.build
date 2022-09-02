@@ -21,6 +21,7 @@ pixmapsdir = join_paths(datadir, 'pixmaps')
 polkitactiondir = join_paths(datadir, 'polkit-1', 'actions') # default, let pkg-config tell us the truth
 docdatadir = join_paths(datadir, 'doc', package)
 sbindir = join_paths(get_option('prefix'), get_option('sbindir'))
+bindir = join_paths(get_option('prefix'), get_option('bindir'))
 
 configuration = configuration_data()
 configuration.set_quoted('PACKAGE', package)
