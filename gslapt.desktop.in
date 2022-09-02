@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Exec=@privprog@@bindir@/gslapt-polkit
+Exec=@bindir@/gslapt-polkit
 Name=Gslapt Package Manager
 GenericName=Gslapt
 Comment=Install, remove and upgrade software packages
