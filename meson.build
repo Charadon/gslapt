@@ -30,6 +30,7 @@ configuration.set_quoted('PACKAGE_DATA_DIR', datadir)
 configuration.set_quoted('PACKAGE_LOCALE_DIR', localedir)
 configuration.set_quoted('VERSION', version)
 configuration.set('sbindir', sbindir)
+configuration.set('bindir', bindir)
 configuration.set('datadir', datadir)
 configuration.set('privprog', '')
 
